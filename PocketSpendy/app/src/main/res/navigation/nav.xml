@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/timelineFragment">
+    <fragment
+        android:id="@+id/timelineFragment"
+        android:name="com.example.pocketspendy.ui.TimelineFragment"
+        android:label="Timeline"
+        tools:layout="@layout/fragment_timeline" />
+    <fragment
+        android:id="@+id/walletsFragment"
+        android:name="com.example.pocketspendy.ui.WalletsFragment"
+        android:label="Wallets"
+        tools:layout="@layout/fragment_wallets" />
+    <fragment
+        android:id="@+id/budgetsFragment"
+        android:name="com.example.pocketspendy.ui.BudgetFragment"
+        android:label="Budgets"
+        tools:layout="@layout/fragment_budgets" />
+    <fragment
+        android:id="@+id/activityFragment"
+        android:name="com.example.pocketspendy.ui.ActivityFragment"
+        android:label="Activity"
+        tools:layout="@layout/fragment_activity" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.example.pocketspendy.ui.MoreFragment"
+        android:label="More"
+        tools:layout="@layout/fragment_more" />
+</navigation>
